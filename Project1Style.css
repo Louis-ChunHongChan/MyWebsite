@@ -1,0 +1,276 @@
+html {
+    background-image: linear-gradient(to right, #2b2a5c, #63345e);
+    background-size: cover;
+}
+
+.UEP {
+    position: absolute;
+    left: 18.229166666666668vw;
+    right: 18.229166666666668vw;
+}
+
+#controller {
+    max-width: 78.125vw;
+}
+
+#smaller {
+    max-width: 41.666666666666664vw;
+}
+
+.UEP h1 {
+    width: 65.10416666666667vw;
+    font-size: 1.vw;
+    font-family: 'Poiret One', cursive;
+}
+
+.UEP p {
+    align-content: center;
+    width: 62.5vw;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.vw;
+}
+
+.UEP img {
+    max-width: 62.5vw;
+}
+
+.essayBody p{
+    align-content: center;
+    width: 62.5vw;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1vw;
+}
+
+.essayBody h1 {
+    width: 65.1vw;
+    font-family: 'Poiret One', cursive;
+}
+
+.essayBody h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.56vw;
+    font-family: 'Poiret One', cursive;
+}
+
+.essayBody h3 {
+    font-family: 'Poiret One', cursive;
+}
+
+.essayBody I {
+    font-size: 1.09vw;
+    color: #fff69f;
+}
+
+.essayBody ul {
+    list-style: none;
+    color: #e2dddf;
+    width: 52.08vw;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 0.9375vw;
+}
+
+.essayBody ul li::before {
+    display: inline-block;
+    content: "\2022";
+    color: #a0ffe3;
+    width: 1.04vw;
+    font-weight: bold;
+}
+
+p {
+    color: #e2dddf;
+    font-size: 1.04vw;
+}
+
+.indexBody {
+    position: absolute;
+    left: 19.791666666666668vw;
+    width: 36.458333333333336vw;
+}
+
+.essayBody {
+    position: absolute;
+    left: 18.229166666666668vw;
+    right: 18.229166666666668vw;
+}
+
+.CMR {
+    position: absolute;
+    left: 18.229166666666668vw;
+    right: 18.229166666666668vw;
+}
+
+.CMR h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.9791666666666667vw;
+}
+
+.essayBody img {
+    display: block;
+    margin: auto;
+    max-width: 52.083333333333336vw;
+}
+
+.essayFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.essayFlex img {
+    max-width: 41.666666666666664vw;
+}
+
+.subtitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lp1::first-letter {
+    color: #ff2a6d;
+    font-size: 2.0833333333333335vw;
+}
+
+.lp2::first-letter {
+    color: #85ebd9;
+    font-size: 2.0833333333333335vw;
+}
+
+.indexBody h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.6041666666666665vw;
+    position: relative;
+    top: 20px;
+}
+
+.indexBody p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 0.9895833333333334vw;
+}
+
+.CMR p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 0.9895833333333334vw;
+}
+
+.indexBody img {
+    width: 23.4375vw;
+    position: absolute;
+    left: 37.5vw;
+    top: 2.6041666666666665vw;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 1.9791666666666667vw;
+    color: aliceblue;
+}
+
+h3 {
+    color: #ffe69d;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.8229166666666667vw;
+    color: #fe75fe;
+}
+
+.slogan {
+    transition: transform 0.3s;
+}
+
+.slogan:hover {
+    transform: rotate(15deg);
+}
+
+.header h1 {
+    text-align: center;
+    color: cyan;
+    font-size: 6.25vw;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.links-container {
+    padding: 0.9375vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.3020833333333333vw;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: whitesmoke;
+    font-family: 'Grandstander', cursive;
+}
+
+a.home {
+    color: #ff2a6d;
+}
+
+a.UEProject {
+    color: #ff2a6d;
+}
+
+a.Essay {
+    color: #ff2a6d;
+}
+
+a.WCM {
+    color: #ff2a6d;
+}
+
+a:hover {
+    color: #ff2a6d;
+}
+
+.linkbox li:hover {
+    transform: translate(3px, 3px);
+}
+
+.linkbox {
+    margin: 1.0416666666666667vw 1.5625vw;
+}
+
+hr{
+    width: 62.5vw;
+    border-style: groove;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content=wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 2.0833333333333335vw;
+    width: 100%;
+    background-color: #6287f8;
+    margin: 0 auto;
+}
+
+footer img {
+    display: block;
+    height: 2.6041666666666665vw;
+    width: 2.6041666666666665vw;
+    border-radius: 50%;
+}
