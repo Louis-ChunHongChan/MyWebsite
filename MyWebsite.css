@@ -80,11 +80,11 @@ html {
 
 p {
     color: #e2dddf;
-    font-size: 1.04vw;
+    font-size: 1.563rem;
 }
 
 .indexBody {
-    position: absolute;
+    position: relative;
     left: 19.791666666666668vw;
     width: 36.458333333333336vw;
 }
@@ -249,7 +249,7 @@ hr{
 }
 
 #page-container {
-    position: relative;
+    /*position: relative;*/
     min-height: 100vh;
 }
 
@@ -259,7 +259,7 @@ hr{
 
 footer {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
     height: 2.0833333333333335vw;
@@ -268,8 +268,28 @@ footer {
     margin: 0 auto;
 }
 
-footer img {
+#footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 2.0833333333333335vw;
+    width: 60%;
+    background-color: #6287f8;
+    margin: 0 auto;
+}
+
+#footer img {
     display: block;
+    margin: 0 15px 0 15px;
+    height: 2.6041666666666665vw;
+    width: 2.6041666666666665vw;
+    border-radius: 50%;
+}
+
+.footer img {
+    display: block;
+    margin: 0 15px 0 15px;
     height: 2.6041666666666665vw;
     width: 2.6041666666666665vw;
     border-radius: 50%;
